@@ -2,7 +2,7 @@
 
 import useSWR from 'swr'
 import Image from 'next/image'
-import Link from 'next/Link'
+import Link from 'next/link'
 
 import { fetcher } from '@/app/utils/fetcher.ts'
 
