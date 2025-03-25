@@ -27,9 +27,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <header>Header</header>
+        <header>Header coming soon!</header>
         {children}
-        <footer>Footer</footer>
+        <footer className="text-center">Made with 🏒 and 💙 by Jae Webb using React, Next.js, TailwindCSS, SWR, Vercel, and the amazing NHL API</footer>
       </body>
     </html>
   )
