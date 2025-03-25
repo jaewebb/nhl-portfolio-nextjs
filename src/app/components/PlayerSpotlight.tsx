@@ -4,7 +4,7 @@ import useSWR from 'swr'
 import Image from 'next/image'
 import Link from 'next/link'
 
-import { fetcher } from '@/app/utils/fetcher.ts'
+import { fetcher } from '@/app/utils/fetcher'
 
 import { type PlayerSpotlight } from '@/app/types/PlayerSpotlight'
 
