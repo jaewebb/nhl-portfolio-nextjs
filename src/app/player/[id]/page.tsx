@@ -9,7 +9,6 @@ export default async function Page({ params, }: { params: Promise<{ id: string }
   const res = await fetch(`${process.env.BACKEND_URL}/api/player/${id}`)
   const player: Player = await res.json()
 
-  console.log('ree', player)
   return (
     <Suspense fallback={<div>Loading...</div>}>
       <PlayerDetails player={player} />
