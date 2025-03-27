@@ -13,7 +13,7 @@ export default function PlayerSpotlight() {
   if (error) return <div>failed to load</div>
   if (isLoading) return <div>loading...</div>
   return (
-    <div className="grid grid-cols-4 items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+    <div className="grid grid-cols-4 items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
       { data.map((player: PlayerSpotlight) => (
           <Link href={`/player/${player.playerId}`} key={player.playerId}>
             <div className="flex">

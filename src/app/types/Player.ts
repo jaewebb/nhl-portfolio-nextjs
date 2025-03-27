@@ -1,3 +1,5 @@
+import { type Game } from '@/app/types/Game'
+
 interface Award {
   trophy: Trophy
   seasons: Season[]
@@ -31,25 +33,6 @@ interface CareerTotal {
   shorthandedGoals:number
   shorthandedPoints: number
   shots: number
-}
-
-interface Game {
-  assists: number
-  gameDate: string
-  gameId: number
-  gameTypeId: number
-  goals: number
-  homeRoadFlag: string
-  opponentAbbrev: string
-  pim: number
-  plusMinus: number
-  points: number
-  powerPlayGoals: number
-  shifts: number
-  shorthandedGoals: number
-  shots: number
-  teamAbbrev: string
-  toi: string
 }
 
 interface Season {
@@ -186,7 +169,7 @@ export interface Player {
     default: string
   }
   birthCountry: string
-  shootsCatches: "L" | "R"
+  shootsCatches: 'L' | 'R'
   draftDetails: {
     year: number
     teamAbbrev: string

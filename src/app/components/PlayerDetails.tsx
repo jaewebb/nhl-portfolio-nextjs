@@ -1,27 +1,41 @@
-import Image from 'next/image'
+import PlayerCard from '@/app/components/PlayerCard'
 
+import { columns } from '@/app/components/playerLastFiveGames/TableColumns'
+import { DataTable } from '@/app/components/playerLastFiveGames/DataTable'
+
+import { GameType } from '@/app/types/GameType'
+import { type Game } from '@/app/types/Game'
 import { type Player } from '@/app/types/Player'
 
+function createData(game: Game) {
+  return { 
+    gameId: game.gameId,
+    gameDate: game.gameDate,
+    gameType: GameType[game.gameTypeId],
+    goals: game.goals,
+    assists: game.assists,
+    shorthandedGoals: game.shorthandedGoals,
+    powerPlayGoals: game.powerPlayGoals,
+    teamAbbrev: game.teamAbbrev,
+    opponentAbbrev: game.opponentAbbrev,
+    homeRoadFlag: game.homeRoadFlag == 'H' ? 'Home' : 'Away',
+    points: game.points,
+    plusMinus: game.plusMinus,
+    shots: game.shots,
+    shifts: game.shifts,
+    toi: game.toi,
+    pim: game.pim,
+   }
+}
+
 export default function PlayerDetails({ player }: { player: Player }) {
+  const rows = player.last5Games.map(game => createData(game))
+
   return (
-    <div className="grid grid-cols-4 items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <div className="flex">
-        { player.firstName.default } { player.lastName.default }
-        <Image
-          src={player.teamLogo}
-          alt={`${player.fullTeamName.default}'s logo`}
-          width={50}
-          height={50}
-          priority
-        />
-      </div>
-      <Image
-        src={player.headshot}
-        alt={`${player.lastName.default}'s headshot`}
-        width={200}
-        height={50}
-        priority
-      />
+    !player ? <div>No Information Found.</div> :
+    <div className="grid grid-cols-1 items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
+      <PlayerCard player={player} />
+      <DataTable columns={columns} data={rows} />
     </div>
   )
 }

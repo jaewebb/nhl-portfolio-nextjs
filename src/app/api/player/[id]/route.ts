@@ -1,5 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 
+import backupPlayer from '@/app/data/PlayerDetails.json'
+
 export async function GET(request: NextRequest, props: { params: Promise<{ id: string }> }) {
   try {
     const { id, } = await props.params
@@ -10,6 +12,9 @@ export async function GET(request: NextRequest, props: { params: Promise<{ id: s
     
     return NextResponse.json(player, { status: 200, })
   } catch (error) {
-    return NextResponse.json({ error, }, { status: 500, })
+    // will be adding error handling
+    // for now I'm using a backup data file to work on the page while I'm disconnected from the internet
+    // return NextResponse.json({ error, }, { status: 500, })
+    return NextResponse.json(backupPlayer, { status: 500, })
   }
 }
