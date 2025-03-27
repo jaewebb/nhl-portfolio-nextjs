@@ -12,6 +12,7 @@ export async function GET() {
     if (players.status === 'error') return NextResponse.json({ error: players.message, }, { status: players.code, })
     return NextResponse.json(players, { status: 200, })
   } catch (error) {
+    console.log(error)
     // will be adding error handling
     // for now I'm using a backup data file to work on the page while I'm disconnected from the internet
     // return NextResponse.json({ error, }, { status: 500, })

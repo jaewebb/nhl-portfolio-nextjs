@@ -1,7 +1,7 @@
 import { Position } from '@/app/types/Position'
 
 export default function getPosition(position: Position) {
-  const t = (c: string) => `${c}`
+  // const t = (c: string) => `${c}`
 
   switch (position) {
     case 'C':

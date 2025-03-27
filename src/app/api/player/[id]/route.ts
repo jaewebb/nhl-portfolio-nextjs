@@ -15,6 +15,7 @@ export async function GET(request: NextRequest, props: { params: Promise<{ id: s
     // will be adding error handling
     // for now I'm using a backup data file to work on the page while I'm disconnected from the internet
     // return NextResponse.json({ error, }, { status: 500, })
+    console.log(error)
     return NextResponse.json(backupPlayer, { status: 500, })
   }
 }

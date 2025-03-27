@@ -1,7 +1,7 @@
 import { GameType } from '@/app/types/GameType'
 
 export default function getPosition(gameType: GameType) {
-  const t = (c: string) => `${c}`
+  // const t = (c: string) => `${c}`
 
   switch (gameType) {
     case 0:

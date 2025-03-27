@@ -31,7 +31,7 @@ export default function MediaCard({player}: { player: Player }) {
             <div className="flex items-center">
               <Image
                 src={player.teamLogo}
-                alt={`${player.fullTeamName.default}'s logo`}
+                alt={`${player.fullTeamName.default}&apos;s logo`}
                 width={50}
                 height={50}
                 priority
@@ -65,7 +65,7 @@ export default function MediaCard({player}: { player: Player }) {
         <div className="flex flex-col items-center">
           <Image
             src={player.headshot}
-            alt={`${player.lastName.default}'s headshot`}
+            alt={`${player.lastName.default}&apos;s headshot`}
             width={300}
             height={400}
             priority
@@ -75,7 +75,7 @@ export default function MediaCard({player}: { player: Player }) {
             <li>Position: {getPosition(player.position)}</li>
             <li>Birthday: {player.birthDate}</li>
             <li>Hometown: {player.birthCity.default}, {player.birthStateProvince.default}, {player.birthCountry}</li>
-            <li>Height: { Math.floor(player.heightInInches / 12) }' { player.heightInInches % 12 }" ({ player.heightInCentimeters } cm)</li>
+            <li>Height: { Math.floor(player.heightInInches / 12) }&apos; { player.heightInInches % 12 }&quot; ({ player.heightInCentimeters } cm)</li>
             <li>Weight: { player.weightInPounds }lb ({ player.weightInKilograms }Kg)</li>
           </ul>
         </div>
