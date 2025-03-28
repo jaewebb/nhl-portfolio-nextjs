@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import { Geist, Geist_Mono } from 'next/font/google'
 import './globals.css'
+import { ThemeProvider } from '@/app/components/ThemeProvider'
+import { ThemeToggle } from '@/app/components/ThemeToggle'
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -23,13 +25,24 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
+    // suppressHydrationWarning was recommended in the ShadCN docks when using the themeprovider
+    <html lang="en" suppressHydrationWarning>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <header>Header coming soon!</header>
-        {children}
-        <footer className="text-center">Built with 🏒 and 💙 by Jae Webb using React, Next.js, TailwindCSS, SWR, Vercel, ShadCN, and the amazing NHL API</footer>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          <header className="flex justify-between">
+            Header coming soon!
+            <ThemeToggle />
+          </header>
+          {children}
+          <footer className="text-center">Built with 🏒 and 💙 by Jae Webb using React, Next.js, TailwindCSS, SWR, Vercel, ShadCN, and the amazing NHL API</footer>
+        </ThemeProvider>
       </body>
     </html>
   )

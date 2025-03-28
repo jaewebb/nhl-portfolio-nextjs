@@ -2,7 +2,7 @@ import * as React from 'react'
 
 import Image from 'next/image'
 
-import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
+import { Avatar, AvatarFallback, AvatarImage } from '@/app/components/ui/avatar'
 import {
   Card,
   CardContent,
@@ -10,13 +10,13 @@ import {
   // CardFooter,
   CardHeader,
   CardTitle,
-} from '@/components/ui/card'
+} from '@/app/components/ui/card'
 import {
   Tooltip,
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
-} from '@/components/ui/tooltip'
+} from '@/app/components/ui/tooltip'
 
 import getPosition from '@/app/utils/getPosition'
 
