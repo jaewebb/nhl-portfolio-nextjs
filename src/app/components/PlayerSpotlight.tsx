@@ -1,11 +1,10 @@
 'use client'
 
 import useSWR from 'swr'
-import Image from 'next/image'
-import Link from 'next/link'
 
 import { fetcher } from '@/app/utils/fetcher'
 
+import PlayerSpotlightCard from '@/app/components/PlayerSpotlightCard'
 import { type PlayerSpotlight } from '@/app/types/PlayerSpotlight'
 
 export default function PlayerSpotlight() {
@@ -13,29 +12,15 @@ export default function PlayerSpotlight() {
   if (error) return <div>failed to load</div>
   if (isLoading) return <div>loading...</div>
   return (
-    <div className="grid grid-cols-4 items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      { data.map((player: PlayerSpotlight) => (
-          <Link href={`/player/${player.playerId}`} key={player.playerId}>
-            <div className="flex">
-              { player.name.default }
-              <Image
-                src={player.teamLogo}
-                alt={`${player.teamTriCode}'s logo`}
-                width={50}
-                height={50}
-                priority
-              />
-            </div>
-            <Image
-              src={player.headshot}
-              alt={`${player.name.default}'s headshot`}
-              width={200}
-              height={50}
-              priority
-            />
-          </Link>
-        ))
-      }
+    <div>
+      <h1 className="px-8">Player Spotlight</h1>
+      <div className="grid grid-cols-4 items-center justify-items-center min-h-screen p-8 gap-16">
+        {
+          data.map((player: PlayerSpotlight) => (
+            <PlayerSpotlightCard key={player.playerId} player={player} />
+          ))
+        }
+      </div>
     </div>
   )
 }

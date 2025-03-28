@@ -1,4 +1,4 @@
-import PlayerCard from '@/app/components/PlayerCard'
+import PlayerDetailCard from '@/app/components/PlayerDetailCard'
 
 import { columns } from '@/app/components/playerLastFiveGames/TableColumns'
 import { DataTable } from '@/app/components/playerLastFiveGames/DataTable'
@@ -33,8 +33,8 @@ export default function PlayerDetails({ player }: { player: Player }) {
 
   return (
     !player ? <div>No Information Found.</div> :
-    <div className="grid grid-cols-1 items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <PlayerCard player={player} />
+    <div className="grid grid-cols-1 items-center justify-items-center min-h-screen p-8 gap-16">
+      <PlayerDetailCard player={player} />
       <DataTable columns={columns} data={rows} />
     </div>
   )

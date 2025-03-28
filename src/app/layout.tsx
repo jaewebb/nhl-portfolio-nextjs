@@ -36,12 +36,12 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <header className="flex justify-between">
+          <header className="flex justify-between p-8">
             Header coming soon!
             <ThemeToggle />
           </header>
           {children}
-          <footer className="text-center">Built with 🏒 and 💙 by Jae Webb using React, Next.js, TailwindCSS, SWR, Vercel, ShadCN, and the amazing NHL API</footer>
+          <footer className="text-center p-8">Built with 🏒 and 💙 by Jae Webb using React, Next.js, TailwindCSS, SWR, Vercel, ShadCN, and the amazing NHL API</footer>
         </ThemeProvider>
       </body>
     </html>
