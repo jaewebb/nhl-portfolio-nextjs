@@ -10,7 +10,7 @@ import { type Game, type HomeRoadFlag } from '@/app/types/Game'
 import { type Player } from '@/app/types/Player'
 
 function createData(game: Game) {
-  return { 
+  return {
     gameId: game.gameId,
     gameDate: game.gameDate,
     gameType: GameType[game.gameTypeId],

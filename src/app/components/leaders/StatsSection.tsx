@@ -1,6 +1,6 @@
 import LeaderStatsCard from '@/app/components/leaders/StatsCard'
 
-import { Leader } from '@/app/types/leader';
+import { Leader } from '@/app/types/leader'
 
 type StatsSectionProps = {
   decimals?: number
