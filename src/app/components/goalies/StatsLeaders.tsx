@@ -5,11 +5,12 @@ import useSWR from 'swr'
 import { fetcher } from '@/app/utils/fetcher'
 
 import LeaderStatsSection from '@/app/components/leaders/StatsSection'
+import Loading from '@/app/components/Loading'
 
 export default function StatsLeaders() {
   const { data, error, isLoading } = useSWR('/api/goalie/stats-leaders', fetcher)
   if (error) return <div>failed to load</div>
-  if (isLoading) return <div>loading...</div>
+  if (isLoading) return <Loading />
 
   return (
     <div>

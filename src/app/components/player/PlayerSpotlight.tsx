@@ -4,13 +4,14 @@ import useSWR from 'swr'
 
 import { fetcher } from '@/app/utils/fetcher'
 
+import Loading from '@/app/components/Loading'
 import PlayerSpotlightCard from '@/app/components/player/SpotlightCard'
 import { type PlayerSpotlight } from '@/app/types/PlayerSpotlight'
 
 export default function PlayerSpotlight() {
   const { data, error, isLoading } = useSWR('api/player/spotlight', fetcher)
   if (error) return <div>failed to load</div>
-  if (isLoading) return <div>loading...</div>
+  if (isLoading) return <Loading />
   return (
     <div>
       <h1 className="px-8">Player Spotlight</h1>
