@@ -1,0 +1,864 @@
+{
+  "goalsSh": [
+    {
+      "id": 8477949,
+      "firstName": {
+        "default": "Alex"
+      },
+      "lastName": {
+        "default": "Tuch"
+      },
+      "sweaterNumber": 89,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20242025/BUF/8477949.png",
+      "teamAbbrev": "BUF",
+      "teamName": {
+        "default": "Sabres"
+      },
+      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/BUF_light.svg",
+      "position": "R",
+      "value": 5
+    },
+    {
+      "id": 8482093,
+      "firstName": {
+        "default": "Seth"
+      },
+      "lastName": {
+        "default": "Jarvis"
+      },
+      "sweaterNumber": 24,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20242025/CAR/8482093.png",
+      "teamAbbrev": "CAR",
+      "teamName": {
+        "default": "Hurricanes"
+      },
+      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/CAR_light.svg",
+      "position": "C",
+      "value": 5
+    },
+    {
+      "id": 8477933,
+      "firstName": {
+        "default": "Sam"
+      },
+      "lastName": {
+        "default": "Reinhart"
+      },
+      "sweaterNumber": 13,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20242025/FLA/8477933.png",
+      "teamAbbrev": "FLA",
+      "teamName": {
+        "default": "Panthers"
+      },
+      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/FLA_light.svg",
+      "position": "C",
+      "value": 5
+    },
+    {
+      "id": 8478519,
+      "firstName": {
+        "default": "Anthony"
+      },
+      "lastName": {
+        "default": "Cirelli"
+      },
+      "sweaterNumber": 71,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20242025/TBL/8478519.png",
+      "teamAbbrev": "TBL",
+      "teamName": {
+        "default": "Lightning"
+      },
+      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/TBL_light.svg",
+      "position": "C",
+      "value": 4
+    },
+    {
+      "id": 8475184,
+      "firstName": {
+        "default": "Chris"
+      },
+      "lastName": {
+        "default": "Kreider"
+      },
+      "sweaterNumber": 20,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20242025/NYR/8475184.png",
+      "teamAbbrev": "NYR",
+      "teamName": {
+        "default": "Rangers"
+      },
+      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/NYR_light.svg",
+      "position": "L",
+      "value": 4
+    }
+  ],
+  "plusMinus": [
+    {
+      "id": 8474151,
+      "firstName": {
+        "default": "Ryan"
+      },
+      "lastName": {
+        "default": "McDonagh"
+      },
+      "sweaterNumber": 27,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20242025/TBL/8474151.png",
+      "teamAbbrev": "TBL",
+      "teamName": {
+        "default": "Lightning"
+      },
+      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/TBL_light.svg",
+      "position": "D",
+      "value": 40
+    },
+    {
+      "id": 8481656,
+      "firstName": {
+        "default": "Aliaksei",
+        "cs": "Alexej",
+        "de": "Alexei",
+        "es": "Alexei",
+        "fi": "Aljaksei",
+        "sk": "Alexej"
+      },
+      "lastName": {
+        "default": "Protas"
+      },
+      "sweaterNumber": 21,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20242025/WSH/8481656.png",
+      "teamAbbrev": "WSH",
+      "teamName": {
+        "default": "Capitals"
+      },
+      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_light.svg",
+      "position": "C",
+      "value": 40
+    },
+    {
+      "id": 8475188,
+      "firstName": {
+        "default": "Brayden"
+      },
+      "lastName": {
+        "default": "McNabb"
+      },
+      "sweaterNumber": 3,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20242025/VGK/8475188.png",
+      "teamAbbrev": "VGK",
+      "teamName": {
+        "default": "Golden Knights"
+      },
+      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/VGK_light.svg",
+      "position": "D",
+      "value": 38
+    },
+    {
+      "id": 8478403,
+      "firstName": {
+        "default": "Jack"
+      },
+      "lastName": {
+        "default": "Eichel"
+      },
+      "sweaterNumber": 9,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20242025/VGK/8478403.png",
+      "teamAbbrev": "VGK",
+      "teamName": {
+        "default": "Golden Knights"
+      },
+      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/VGK_light.svg",
+      "position": "C",
+      "value": 35
+    },
+    {
+      "id": 8477476,
+      "firstName": {
+        "default": "Artturi"
+      },
+      "lastName": {
+        "default": "Lehkonen"
+      },
+      "sweaterNumber": 62,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20242025/COL/8477476.png",
+      "teamAbbrev": "COL",
+      "teamName": {
+        "default": "Avalanche"
+      },
+      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/COL_light.svg",
+      "position": "L",
+      "value": 34
+    }
+  ],
+  "assists": [
+    {
+      "id": 8477492,
+      "firstName": {
+        "default": "Nathan"
+      },
+      "lastName": {
+        "default": "MacKinnon"
+      },
+      "sweaterNumber": 29,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20242025/COL/8477492.png",
+      "teamAbbrev": "COL",
+      "teamName": {
+        "default": "Avalanche"
+      },
+      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/COL_light.svg",
+      "position": "C",
+      "value": 79
+    },
+    {
+      "id": 8476453,
+      "firstName": {
+        "default": "Nikita"
+      },
+      "lastName": {
+        "default": "Kucherov",
+        "cs": "Kučerov",
+        "fi": "Kutsherov",
+        "sk": "Kučerov"
+      },
+      "sweaterNumber": 86,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20242025/TBL/8476453.png",
+      "teamAbbrev": "TBL",
+      "teamName": {
+        "default": "Lightning"
+      },
+      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/TBL_light.svg",
+      "position": "R",
+      "value": 76
+    },
+    {
+      "id": 8478483,
+      "firstName": {
+        "default": "Mitch",
+        "cs": "Mitchell",
+        "de": "Mitchell",
+        "es": "Mitchell",
+        "fi": "Mitchell",
+        "sk": "Mitchell",
+        "sv": "Mitchell"
+      },
+      "lastName": {
+        "default": "Marner"
+      },
+      "sweaterNumber": 16,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20242025/TOR/8478483.png",
+      "teamAbbrev": "TOR",
+      "teamName": {
+        "default": "Maple Leafs"
+      },
+      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/TOR_light.svg",
+      "position": "R",
+      "value": 68
+    },
+    {
+      "id": 8478403,
+      "firstName": {
+        "default": "Jack"
+      },
+      "lastName": {
+        "default": "Eichel"
+      },
+      "sweaterNumber": 9,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20242025/VGK/8478403.png",
+      "teamAbbrev": "VGK",
+      "teamName": {
+        "default": "Golden Knights"
+      },
+      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/VGK_light.svg",
+      "position": "C",
+      "value": 66
+    },
+    {
+      "id": 8479407,
+      "firstName": {
+        "default": "Jesper"
+      },
+      "lastName": {
+        "default": "Bratt"
+      },
+      "sweaterNumber": 63,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20242025/NJD/8479407.png",
+      "teamAbbrev": "NJD",
+      "teamName": {
+        "default": "Devils"
+      },
+      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/NJD_light.svg",
+      "position": "L",
+      "value": 66
+    }
+  ],
+  "goalsPp": [
+    {
+      "id": 8477404,
+      "firstName": {
+        "default": "Jake"
+      },
+      "lastName": {
+        "default": "Guentzel"
+      },
+      "sweaterNumber": 59,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20242025/TBL/8477404.png",
+      "teamAbbrev": "TBL",
+      "teamName": {
+        "default": "Lightning"
+      },
+      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/TBL_light.svg",
+      "position": "C",
+      "value": 16
+    },
+    {
+      "id": 8477934,
+      "firstName": {
+        "default": "Leon"
+      },
+      "lastName": {
+        "default": "Draisaitl"
+      },
+      "sweaterNumber": 29,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20242025/EDM/8477934.png",
+      "teamAbbrev": "EDM",
+      "teamName": {
+        "default": "Oilers"
+      },
+      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg",
+      "position": "C",
+      "value": 15
+    },
+    {
+      "id": 8479339,
+      "firstName": {
+        "default": "Patrik"
+      },
+      "lastName": {
+        "default": "Laine"
+      },
+      "sweaterNumber": 92,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20242025/MTL/8479339.png",
+      "teamAbbrev": "MTL",
+      "teamName": {
+        "default": "Canadiens"
+      },
+      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/MTL_light.svg",
+      "position": "L",
+      "value": 15
+    },
+    {
+      "id": 8480801,
+      "firstName": {
+        "default": "Brady"
+      },
+      "lastName": {
+        "default": "Tkachuk"
+      },
+      "sweaterNumber": 7,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20242025/OTT/8480801.png",
+      "teamAbbrev": "OTT",
+      "teamName": {
+        "default": "Senators",
+        "fr": "Sénateurs"
+      },
+      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/OTT_light.svg",
+      "position": "L",
+      "value": 14
+    },
+    {
+      "id": 8478010,
+      "firstName": {
+        "default": "Brayden"
+      },
+      "lastName": {
+        "default": "Point"
+      },
+      "sweaterNumber": 21,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20242025/TBL/8478010.png",
+      "teamAbbrev": "TBL",
+      "teamName": {
+        "default": "Lightning"
+      },
+      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/TBL_light.svg",
+      "position": "C",
+      "value": 14
+    }
+  ],
+  "faceoffLeaders": [
+    {
+      "id": 8473512,
+      "firstName": {
+        "default": "Claude"
+      },
+      "lastName": {
+        "default": "Giroux"
+      },
+      "sweaterNumber": 28,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20242025/OTT/8473512.png",
+      "teamAbbrev": "OTT",
+      "teamName": {
+        "default": "Senators",
+        "fr": "Sénateurs"
+      },
+      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/OTT_light.svg",
+      "position": "R",
+      "value": 0.613839
+    },
+    {
+      "id": 8476419,
+      "firstName": {
+        "default": "Jean-Gabriel"
+      },
+      "lastName": {
+        "default": "Pageau"
+      },
+      "sweaterNumber": 44,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20242025/NYI/8476419.png",
+      "teamAbbrev": "NYI",
+      "teamName": {
+        "default": "Islanders"
+      },
+      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/NYI_light.svg",
+      "position": "C",
+      "value": 0.601655
+    },
+    {
+      "id": 8476389,
+      "firstName": {
+        "default": "Vincent"
+      },
+      "lastName": {
+        "default": "Trocheck"
+      },
+      "sweaterNumber": 16,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20242025/NYR/8476389.png",
+      "teamAbbrev": "NYR",
+      "teamName": {
+        "default": "Rangers"
+      },
+      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/NYR_light.svg",
+      "position": "C",
+      "value": 0.594846
+    },
+    {
+      "id": 8478831,
+      "firstName": {
+        "default": "Kevin"
+      },
+      "lastName": {
+        "default": "Stenlund"
+      },
+      "sweaterNumber": 82,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20242025/UTA/8478831.png",
+      "teamAbbrev": "UTA",
+      "teamName": {
+        "default": "Utah Hockey Club",
+        "fr": "Club de hockey de l'Utah"
+      },
+      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/UTA_light.svg",
+      "position": "C",
+      "value": 0.588877
+    },
+    {
+      "id": 8477500,
+      "firstName": {
+        "default": "Bo"
+      },
+      "lastName": {
+        "default": "Horvat"
+      },
+      "sweaterNumber": 14,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20242025/NYI/8477500.png",
+      "teamAbbrev": "NYI",
+      "teamName": {
+        "default": "Islanders"
+      },
+      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/NYI_light.svg",
+      "position": "C",
+      "value": 0.586975
+    }
+  ],
+  "penaltyMins": [
+    {
+      "id": 8477507,
+      "firstName": {
+        "default": "Nikita"
+      },
+      "lastName": {
+        "default": "Zadorov"
+      },
+      "sweaterNumber": 91,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20242025/BOS/8477507.png",
+      "teamAbbrev": "BOS",
+      "teamName": {
+        "default": "Bruins"
+      },
+      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/BOS_light.svg",
+      "position": "D",
+      "value": 137
+    },
+    {
+      "id": 8479671,
+      "firstName": {
+        "default": "Mathieu"
+      },
+      "lastName": {
+        "default": "Olivier"
+      },
+      "sweaterNumber": 24,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20242025/CBJ/8479671.png",
+      "teamAbbrev": "CBJ",
+      "teamName": {
+        "default": "Blue Jackets"
+      },
+      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/CBJ_light.svg",
+      "position": "R",
+      "value": 125
+    },
+    {
+      "id": 8480801,
+      "firstName": {
+        "default": "Brady"
+      },
+      "lastName": {
+        "default": "Tkachuk"
+      },
+      "sweaterNumber": 7,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20242025/OTT/8480801.png",
+      "teamAbbrev": "OTT",
+      "teamName": {
+        "default": "Senators",
+        "fr": "Sénateurs"
+      },
+      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/OTT_light.svg",
+      "position": "L",
+      "value": 123
+    },
+    {
+      "id": 8482964,
+      "firstName": {
+        "default": "Arber"
+      },
+      "lastName": {
+        "default": "Xhekaj"
+      },
+      "sweaterNumber": 72,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20242025/MTL/8482964.png",
+      "teamAbbrev": "MTL",
+      "teamName": {
+        "default": "Canadiens"
+      },
+      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/MTL_light.svg",
+      "position": "D",
+      "value": 118
+    },
+    {
+      "id": 8480355,
+      "firstName": {
+        "default": "Mark"
+      },
+      "lastName": {
+        "default": "Kastelic"
+      },
+      "sweaterNumber": 47,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20242025/BOS/8480355.png",
+      "teamAbbrev": "BOS",
+      "teamName": {
+        "default": "Bruins"
+      },
+      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/BOS_light.svg",
+      "position": "C",
+      "value": 106
+    }
+  ],
+  "goals": [
+    {
+      "id": 8477934,
+      "firstName": {
+        "default": "Leon"
+      },
+      "lastName": {
+        "default": "Draisaitl"
+      },
+      "sweaterNumber": 29,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20242025/EDM/8477934.png",
+      "teamAbbrev": "EDM",
+      "teamName": {
+        "default": "Oilers"
+      },
+      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg",
+      "position": "C",
+      "value": 51
+    },
+    {
+      "id": 8477939,
+      "firstName": {
+        "default": "William"
+      },
+      "lastName": {
+        "default": "Nylander"
+      },
+      "sweaterNumber": 88,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20242025/TOR/8477939.png",
+      "teamAbbrev": "TOR",
+      "teamName": {
+        "default": "Maple Leafs"
+      },
+      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/TOR_light.svg",
+      "position": "R",
+      "value": 42
+    },
+    {
+      "id": 8478398,
+      "firstName": {
+        "default": "Kyle"
+      },
+      "lastName": {
+        "default": "Connor"
+      },
+      "sweaterNumber": 81,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20242025/WPG/8478398.png",
+      "teamAbbrev": "WPG",
+      "teamName": {
+        "default": "Jets"
+      },
+      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg",
+      "position": "L",
+      "value": 38
+    },
+    {
+      "id": 8478010,
+      "firstName": {
+        "default": "Brayden"
+      },
+      "lastName": {
+        "default": "Point"
+      },
+      "sweaterNumber": 21,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20242025/TBL/8478010.png",
+      "teamAbbrev": "TBL",
+      "teamName": {
+        "default": "Lightning"
+      },
+      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/TBL_light.svg",
+      "position": "C",
+      "value": 38
+    },
+    {
+      "id": 8479420,
+      "firstName": {
+        "default": "Tage"
+      },
+      "lastName": {
+        "default": "Thompson"
+      },
+      "sweaterNumber": 72,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20242025/BUF/8479420.png",
+      "teamAbbrev": "BUF",
+      "teamName": {
+        "default": "Sabres"
+      },
+      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/BUF_light.svg",
+      "position": "C",
+      "value": 38
+    }
+  ],
+  "points": [
+    {
+      "id": 8476453,
+      "firstName": {
+        "default": "Nikita"
+      },
+      "lastName": {
+        "default": "Kucherov",
+        "cs": "Kučerov",
+        "fi": "Kutsherov",
+        "sk": "Kučerov"
+      },
+      "sweaterNumber": 86,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20242025/TBL/8476453.png",
+      "teamAbbrev": "TBL",
+      "teamName": {
+        "default": "Lightning"
+      },
+      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/TBL_light.svg",
+      "position": "R",
+      "value": 109
+    },
+    {
+      "id": 8477492,
+      "firstName": {
+        "default": "Nathan"
+      },
+      "lastName": {
+        "default": "MacKinnon"
+      },
+      "sweaterNumber": 29,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20242025/COL/8477492.png",
+      "teamAbbrev": "COL",
+      "teamName": {
+        "default": "Avalanche"
+      },
+      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/COL_light.svg",
+      "position": "C",
+      "value": 109
+    },
+    {
+      "id": 8477934,
+      "firstName": {
+        "default": "Leon"
+      },
+      "lastName": {
+        "default": "Draisaitl"
+      },
+      "sweaterNumber": 29,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20242025/EDM/8477934.png",
+      "teamAbbrev": "EDM",
+      "teamName": {
+        "default": "Oilers"
+      },
+      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg",
+      "position": "C",
+      "value": 104
+    },
+    {
+      "id": 8478403,
+      "firstName": {
+        "default": "Jack"
+      },
+      "lastName": {
+        "default": "Eichel"
+      },
+      "sweaterNumber": 9,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20242025/VGK/8478403.png",
+      "teamAbbrev": "VGK",
+      "teamName": {
+        "default": "Golden Knights"
+      },
+      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/VGK_light.svg",
+      "position": "C",
+      "value": 93
+    },
+    {
+      "id": 8478483,
+      "firstName": {
+        "default": "Mitch",
+        "cs": "Mitchell",
+        "de": "Mitchell",
+        "es": "Mitchell",
+        "fi": "Mitchell",
+        "sk": "Mitchell",
+        "sv": "Mitchell"
+      },
+      "lastName": {
+        "default": "Marner"
+      },
+      "sweaterNumber": 16,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20242025/TOR/8478483.png",
+      "teamAbbrev": "TOR",
+      "teamName": {
+        "default": "Maple Leafs"
+      },
+      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/TOR_light.svg",
+      "position": "R",
+      "value": 91
+    }
+  ],
+  "toi": [
+    {
+      "id": 8478460,
+      "firstName": {
+        "default": "Zach"
+      },
+      "lastName": {
+        "default": "Werenski"
+      },
+      "sweaterNumber": 8,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20242025/CBJ/8478460.png",
+      "teamAbbrev": "CBJ",
+      "teamName": {
+        "default": "Blue Jackets"
+      },
+      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/CBJ_light.svg",
+      "position": "D",
+      "value": 1630.338
+    },
+    {
+      "id": 8480069,
+      "firstName": {
+        "default": "Cale"
+      },
+      "lastName": {
+        "default": "Makar"
+      },
+      "sweaterNumber": 8,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20242025/COL/8480069.png",
+      "teamAbbrev": "COL",
+      "teamName": {
+        "default": "Avalanche"
+      },
+      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/COL_light.svg",
+      "position": "D",
+      "value": 1534.8919
+    },
+    {
+      "id": 8480800,
+      "firstName": {
+        "default": "Quinn"
+      },
+      "lastName": {
+        "default": "Hughes"
+      },
+      "sweaterNumber": 43,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20242025/VAN/8480800.png",
+      "teamAbbrev": "VAN",
+      "teamName": {
+        "default": "Canucks"
+      },
+      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/VAN_light.svg",
+      "position": "D",
+      "value": 1534.2333
+    },
+    {
+      "id": 8482122,
+      "firstName": {
+        "default": "Brock"
+      },
+      "lastName": {
+        "default": "Faber"
+      },
+      "sweaterNumber": 7,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20242025/MIN/8482122.png",
+      "teamAbbrev": "MIN",
+      "teamName": {
+        "default": "Wild"
+      },
+      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/MIN_light.svg",
+      "position": "D",
+      "value": 1519.8571
+    },
+    {
+      "id": 8479410,
+      "firstName": {
+        "default": "Mikhail",
+        "cs": "Michail",
+        "fi": "Mihail",
+        "sk": "Michail"
+      },
+      "lastName": {
+        "default": "Sergachev",
+        "cs": "Sergačov",
+        "fi": "Sergatshov",
+        "sk": "Sergačov"
+      },
+      "sweaterNumber": 98,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20242025/UTA/8479410.png",
+      "teamAbbrev": "UTA",
+      "teamName": {
+        "default": "Utah Hockey Club",
+        "fr": "Club de hockey de l'Utah"
+      },
+      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/UTA_light.svg",
+      "position": "D",
+      "value": 1517.6522
+    }
+  ]
+}

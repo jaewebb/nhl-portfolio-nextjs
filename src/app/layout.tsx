@@ -1,8 +1,13 @@
 import type { Metadata } from 'next'
 import { Geist, Geist_Mono } from 'next/font/google'
+
 import './globals.css'
+
 import { ThemeProvider } from '@/app/components/ThemeProvider'
 import { ThemeToggle } from '@/app/components/ThemeToggle'
+
+import Header from '@/app/components/header/Header'
+import Footer from '@/app/components/footer/Footer'
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -36,12 +41,11 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <header className="flex justify-between p-8">
-            Header coming soon!
+          <Header>
             <ThemeToggle />
-          </header>
+          </Header>
           {children}
-          <footer className="text-center p-8">Built with 🏒 and 💙 by Jae Webb using React, Next.js, TailwindCSS, SWR, Vercel, ShadCN, and the amazing NHL API</footer>
+          <Footer />
         </ThemeProvider>
       </body>
     </html>

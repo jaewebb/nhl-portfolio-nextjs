@@ -1,6 +1,6 @@
 import { Suspense } from 'react'
 
-import PlayerDetails from '@/app/components/PlayerDetails'
+import PlayerDetails from '@/app/components/player/PlayerDetails'
 
 import { type Player } from '@/app/types/Player'
 

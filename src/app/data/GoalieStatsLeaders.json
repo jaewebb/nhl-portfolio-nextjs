@@ -1,0 +1,403 @@
+{
+  "wins": [
+    {
+      "id": 8476945,
+      "firstName": {
+        "default": "Connor"
+      },
+      "lastName": {
+        "default": "Hellebuyck"
+      },
+      "sweaterNumber": 37,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20242025/WPG/8476945.png",
+      "teamAbbrev": "WPG",
+      "teamName": {
+        "default": "Jets"
+      },
+      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg",
+      "position": "G",
+      "value": 43
+    },
+    {
+      "id": 8476883,
+      "firstName": {
+        "default": "Andrei",
+        "cs": "Andrej",
+        "sk": "Andrej"
+      },
+      "lastName": {
+        "default": "Vasilevskiy",
+        "cs": "Vasilevskij",
+        "fi": "Vasilevski",
+        "sk": "Vasilevskij"
+      },
+      "sweaterNumber": 88,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20242025/TBL/8476883.png",
+      "teamAbbrev": "TBL",
+      "teamName": {
+        "default": "Lightning"
+      },
+      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/TBL_light.svg",
+      "position": "G",
+      "value": 35
+    },
+    {
+      "id": 8479979,
+      "firstName": {
+        "default": "Jake"
+      },
+      "lastName": {
+        "default": "Oettinger"
+      },
+      "sweaterNumber": 29,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20242025/DAL/8479979.png",
+      "teamAbbrev": "DAL",
+      "teamName": {
+        "default": "Stars"
+      },
+      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/DAL_light.svg",
+      "position": "G",
+      "value": 35
+    },
+    {
+      "id": 8480313,
+      "firstName": {
+        "default": "Logan"
+      },
+      "lastName": {
+        "default": "Thompson"
+      },
+      "sweaterNumber": 48,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20242025/WSH/8480313.png",
+      "teamAbbrev": "WSH",
+      "teamName": {
+        "default": "Capitals"
+      },
+      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_light.svg",
+      "position": "G",
+      "value": 31
+    },
+    {
+      "id": 8475683,
+      "firstName": {
+        "default": "Sergei",
+        "cs": "Sergej",
+        "sk": "Sergej"
+      },
+      "lastName": {
+        "default": "Bobrovsky",
+        "cs": "Bobrovskij",
+        "fi": "Bobrovski",
+        "sk": "Bobrovskij"
+      },
+      "sweaterNumber": 72,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20242025/FLA/8475683.png",
+      "teamAbbrev": "FLA",
+      "teamName": {
+        "default": "Panthers"
+      },
+      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/FLA_light.svg",
+      "position": "G",
+      "value": 31
+    }
+  ],
+  "shutouts": [
+    {
+      "id": 8476945,
+      "firstName": {
+        "default": "Connor"
+      },
+      "lastName": {
+        "default": "Hellebuyck"
+      },
+      "sweaterNumber": 37,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20242025/WPG/8476945.png",
+      "teamAbbrev": "WPG",
+      "teamName": {
+        "default": "Jets"
+      },
+      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg",
+      "position": "G",
+      "value": 7
+    },
+    {
+      "id": 8476883,
+      "firstName": {
+        "default": "Andrei",
+        "cs": "Andrej",
+        "sk": "Andrej"
+      },
+      "lastName": {
+        "default": "Vasilevskiy",
+        "cs": "Vasilevskij",
+        "fi": "Vasilevski",
+        "sk": "Vasilevskij"
+      },
+      "sweaterNumber": 88,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20242025/TBL/8476883.png",
+      "teamAbbrev": "TBL",
+      "teamName": {
+        "default": "Lightning"
+      },
+      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/TBL_light.svg",
+      "position": "G",
+      "value": 6
+    },
+    {
+      "id": 8475683,
+      "firstName": {
+        "default": "Sergei",
+        "cs": "Sergej",
+        "sk": "Sergej"
+      },
+      "lastName": {
+        "default": "Bobrovsky",
+        "cs": "Bobrovskij",
+        "fi": "Bobrovski",
+        "sk": "Bobrovskij"
+      },
+      "sweaterNumber": 72,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20242025/FLA/8475683.png",
+      "teamAbbrev": "FLA",
+      "teamName": {
+        "default": "Panthers"
+      },
+      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/FLA_light.svg",
+      "position": "G",
+      "value": 5
+    },
+    {
+      "id": 8479406,
+      "firstName": {
+        "default": "Filip"
+      },
+      "lastName": {
+        "default": "Gustavsson"
+      },
+      "sweaterNumber": 32,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20242025/MIN/8479406.png",
+      "teamAbbrev": "MIN",
+      "teamName": {
+        "default": "Wild"
+      },
+      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/MIN_light.svg",
+      "position": "G",
+      "value": 5
+    },
+    {
+      "id": 8478048,
+      "firstName": {
+        "default": "Igor"
+      },
+      "lastName": {
+        "default": "Shesterkin",
+        "cs": "Šesťorkin",
+        "fi": "Shestjorkin",
+        "sk": "Šesťorkin"
+      },
+      "sweaterNumber": 31,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20242025/NYR/8478048.png",
+      "teamAbbrev": "NYR",
+      "teamName": {
+        "default": "Rangers"
+      },
+      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/NYR_light.svg",
+      "position": "G",
+      "value": 5
+    }
+  ],
+  "savePctg": [
+    {
+      "id": 8476945,
+      "firstName": {
+        "default": "Connor"
+      },
+      "lastName": {
+        "default": "Hellebuyck"
+      },
+      "sweaterNumber": 37,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20242025/WPG/8476945.png",
+      "teamAbbrev": "WPG",
+      "teamName": {
+        "default": "Jets"
+      },
+      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg",
+      "position": "G",
+      "value": 0.925413
+    },
+    {
+      "id": 8476883,
+      "firstName": {
+        "default": "Andrei",
+        "cs": "Andrej",
+        "sk": "Andrej"
+      },
+      "lastName": {
+        "default": "Vasilevskiy",
+        "cs": "Vasilevskij",
+        "fi": "Vasilevski",
+        "sk": "Vasilevskij"
+      },
+      "sweaterNumber": 88,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20242025/TBL/8476883.png",
+      "teamAbbrev": "TBL",
+      "teamName": {
+        "default": "Lightning"
+      },
+      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/TBL_light.svg",
+      "position": "G",
+      "value": 0.921189
+    },
+    {
+      "id": 8476932,
+      "firstName": {
+        "default": "Anthony"
+      },
+      "lastName": {
+        "default": "Stolarz"
+      },
+      "sweaterNumber": 41,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20242025/TOR/8476932.png",
+      "teamAbbrev": "TOR",
+      "teamName": {
+        "default": "Maple Leafs"
+      },
+      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/TOR_light.svg",
+      "position": "G",
+      "value": 0.919414
+    },
+    {
+      "id": 8475311,
+      "firstName": {
+        "default": "Darcy"
+      },
+      "lastName": {
+        "default": "Kuemper"
+      },
+      "sweaterNumber": 35,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20242025/LAK/8475311.png",
+      "teamAbbrev": "LAK",
+      "teamName": {
+        "default": "Kings"
+      },
+      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/LAK_light.svg",
+      "position": "G",
+      "value": 0.918721
+    },
+    {
+      "id": 8479406,
+      "firstName": {
+        "default": "Filip"
+      },
+      "lastName": {
+        "default": "Gustavsson"
+      },
+      "sweaterNumber": 32,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20242025/MIN/8479406.png",
+      "teamAbbrev": "MIN",
+      "teamName": {
+        "default": "Wild"
+      },
+      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/MIN_light.svg",
+      "position": "G",
+      "value": 0.91639
+    }
+  ],
+  "goalsAgainstAverage": [
+    {
+      "id": 8476945,
+      "firstName": {
+        "default": "Connor"
+      },
+      "lastName": {
+        "default": "Hellebuyck"
+      },
+      "sweaterNumber": 37,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20242025/WPG/8476945.png",
+      "teamAbbrev": "WPG",
+      "teamName": {
+        "default": "Jets"
+      },
+      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg",
+      "position": "G",
+      "value": 2.007006
+    },
+    {
+      "id": 8475311,
+      "firstName": {
+        "default": "Darcy"
+      },
+      "lastName": {
+        "default": "Kuemper"
+      },
+      "sweaterNumber": 35,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20242025/LAK/8475311.png",
+      "teamAbbrev": "LAK",
+      "teamName": {
+        "default": "Kings"
+      },
+      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/LAK_light.svg",
+      "position": "G",
+      "value": 2.102736
+    },
+    {
+      "id": 8476883,
+      "firstName": {
+        "default": "Andrei",
+        "cs": "Andrej",
+        "sk": "Andrej"
+      },
+      "lastName": {
+        "default": "Vasilevskiy",
+        "cs": "Vasilevskij",
+        "fi": "Vasilevski",
+        "sk": "Vasilevskij"
+      },
+      "sweaterNumber": 88,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20242025/TBL/8476883.png",
+      "teamAbbrev": "TBL",
+      "teamName": {
+        "default": "Lightning"
+      },
+      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/TBL_light.svg",
+      "position": "G",
+      "value": 2.183626
+    },
+    {
+      "id": 8476932,
+      "firstName": {
+        "default": "Anthony"
+      },
+      "lastName": {
+        "default": "Stolarz"
+      },
+      "sweaterNumber": 41,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20242025/TOR/8476932.png",
+      "teamAbbrev": "TOR",
+      "teamName": {
+        "default": "Maple Leafs"
+      },
+      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/TOR_light.svg",
+      "position": "G",
+      "value": 2.352266
+    },
+    {
+      "id": 8480313,
+      "firstName": {
+        "default": "Logan"
+      },
+      "lastName": {
+        "default": "Thompson"
+      },
+      "sweaterNumber": 48,
+      "headshot": "https://assets.nhle.com/mugs/nhl/20242025/WSH/8480313.png",
+      "teamAbbrev": "WSH",
+      "teamName": {
+        "default": "Capitals"
+      },
+      "teamLogo": "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_light.svg",
+      "position": "G",
+      "value": 2.433254
+    }
+  ]
+}

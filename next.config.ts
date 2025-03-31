@@ -12,9 +12,9 @@ const nextConfig: NextConfig = {
       },
     ],
   },
-  typescript: {
-    ignoreBuildErrors: Boolean(process.env.IGNORE_BUILD_ERRORS) || false,
-  },
+  // typescript: {
+  //   ignoreBuildErrors: Boolean(process.env.IGNORE_BUILD_ERRORS) || false,
+  // },
 }
 
 export default nextConfig

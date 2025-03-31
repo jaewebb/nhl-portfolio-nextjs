@@ -12,7 +12,7 @@ import {
 
 import { type PlayerSpotlight } from '@/app/types/PlayerSpotlight'
 
-export default function MediaCard({player}: { player: PlayerSpotlight }) {
+export default function SpotlightCard({player}: { player: PlayerSpotlight }) {
   return (
     <Link href={`/player/${player.playerId}`} key={player.playerId}>
       <Card>

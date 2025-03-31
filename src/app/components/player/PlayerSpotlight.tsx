@@ -4,7 +4,7 @@ import useSWR from 'swr'
 
 import { fetcher } from '@/app/utils/fetcher'
 
-import PlayerSpotlightCard from '@/app/components/PlayerSpotlightCard'
+import PlayerSpotlightCard from '@/app/components/player/SpotlightCard'
 import { type PlayerSpotlight } from '@/app/types/PlayerSpotlight'
 
 export default function PlayerSpotlight() {

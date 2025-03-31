@@ -16,5 +16,8 @@ export default function getPosition(position: Position) {
     case 'D':
       return 'Defense'
       // return t('position.defense')
+    case 'G':
+      return 'Goalie'
+      // return t('position.goalie')
   }
 }

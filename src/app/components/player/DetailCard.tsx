@@ -22,7 +22,7 @@ import getPosition from '@/app/utils/getPosition'
 
 import { type Player } from '@/app/types/Player'
 
-export default function MediaCard({player}: { player: Player }) {
+export default function DetailCard({player}: { player: Player }) {
   return (
     <Card>
       <CardHeader>
@@ -74,7 +74,7 @@ export default function MediaCard({player}: { player: Player }) {
             <li>Team: {player.fullTeamName.default}</li>
             <li>Position: {getPosition(player.position)}</li>
             <li>Birthday: {player.birthDate}</li>
-            <li>Hometown: {player.birthCity.default}, {player.birthStateProvince.default}, {player.birthCountry}</li>
+            <li>Hometown: {player.birthCity?.default}, {player.birthStateProvince?.default ? `${player.birthStateProvince?.default},` : ''} {player.birthCountry}</li>
             <li>Height: { Math.floor(player.heightInInches / 12) }&apos; { player.heightInInches % 12 }&quot; ({ player.heightInCentimeters } cm)</li>
             <li>Weight: { player.weightInPounds }lb ({ player.weightInKilograms }Kg)</li>
           </ul>

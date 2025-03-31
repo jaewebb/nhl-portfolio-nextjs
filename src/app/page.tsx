@@ -1,4 +1,4 @@
-import PlayerSpotlight from '@/app/components/PlayerSpotlight'
+import PlayerSpotlight from '@/app/components/player/PlayerSpotlight'
 
 export default function Home() {
   return (
