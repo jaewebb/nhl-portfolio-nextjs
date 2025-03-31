@@ -1,5 +1,5 @@
 export enum GameType {
-  Preseason,
-  'Regular Season',
-  Playoffs
+  Preseason = 1,
+  'Regular Season' = 2,
+  Playoffs = 3
 }

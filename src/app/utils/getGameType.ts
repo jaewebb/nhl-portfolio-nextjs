@@ -4,11 +4,11 @@ export default function getPosition(gameType: GameType) {
   // const t = (c: string) => `${c}`
 
   switch (gameType) {
-    case 0:
-      return 'Preseason'
     case 1:
-      return 'Regular Season'
+      return 'Preseason'
     case 2:
+      return 'Regular Season'
+    case 3:
       return 'Playoffs'
   }
 }
