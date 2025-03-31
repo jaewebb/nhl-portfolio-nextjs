@@ -25,6 +25,9 @@ const sharedColumns: ColumnDef<GameColumn>[] = [
     accessorKey: 'opponentAbbrev',
     header: 'Opponent',
   },
+]
+
+const toi: ColumnDef<GameColumn>[] = [
   {
     accessorKey: 'toi',
     header: 'Time on Ice',
@@ -38,16 +41,16 @@ export const goalieColumns: ColumnDef<GameColumn>[] = [
     header: 'Decision',
   },
   {
-    accessorKey: 'gamesStarted',
-    header: 'Games Started',
-  },
-  {
     accessorKey: 'goalsAgainst',
     header: 'Goals Against',
   },
   {
     accessorKey: 'savePctg',
     header: 'Save %',
+  },
+  {
+    accessorKey: 'gamesStarted',
+    header: 'Games Started',
   },
   {
     accessorKey: 'shotsAgainst',
@@ -57,10 +60,15 @@ export const goalieColumns: ColumnDef<GameColumn>[] = [
     accessorKey: 'penaltyMins',
     header: 'Penalty Minutes',
   },
+  ...toi
 ]
 
 export const skaterColumns: ColumnDef<GameColumn>[] = [
   ...sharedColumns,
+  {
+    accessorKey: 'points',
+    header: 'Points',
+  },
   {
     accessorKey: 'goals',
     header: 'Goals',
@@ -70,20 +78,20 @@ export const skaterColumns: ColumnDef<GameColumn>[] = [
     header: 'Assists',
   },
   {
-    accessorKey: 'shorthandedGoals',
-    header: 'Shorthanded Goals',
-  },
-  {
     accessorKey: 'powerPlayGoals',
     header: 'PP Goals',
   },
   {
-    accessorKey: 'plusMinus',
-    header: '+ / -',
+    accessorKey: 'shorthandedGoals',
+    header: 'Shorthanded Goals',
   },
   {
-    accessorKey: 'points',
-    header: 'Points',
+    accessorKey: 'pim',
+    header: 'Penalty Minutes',
+  },
+  {
+    accessorKey: 'plusMinus',
+    header: '+ / -',
   },
   {
     accessorKey: 'shots',
@@ -93,8 +101,5 @@ export const skaterColumns: ColumnDef<GameColumn>[] = [
     accessorKey: 'shifts',
     header: 'Shifts',
   },
-  {
-    accessorKey: 'pim',
-    header: 'Penalty Minutes',
-  },
+  ...toi
 ]
