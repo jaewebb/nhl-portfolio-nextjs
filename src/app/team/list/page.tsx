@@ -22,7 +22,7 @@ import { PlayerDetails } from '@/app/types/player/PlayerDetails'
 const TeamContext = createContext('')
 
 function PositionSection({ title, players }: { title: string, players: PlayerDetails[] }) {
-  return (
+  return players && (
     <>
       <h2 className="px-16">{title}</h2>
       <div className="px-16 py-8">
