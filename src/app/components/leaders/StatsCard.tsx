@@ -26,7 +26,7 @@ export default function LeaderStatsCard({
   statName,
 }: StatsCardProps) {
   return (
-    <Link href={`/player/${leader.id}`} key={leader.id}>
+    <Link href={`/player/${leader.playerId}`} key={leader.playerId}>
       <Card>
         <CardHeader>
           <CardTitle>
