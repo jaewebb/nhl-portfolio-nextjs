@@ -1,4 +1,7 @@
-import { type Game } from '@/app/types/Game'
+import { Game } from '@/app/types/Game'
+import { Name } from '@/app/types/common/Name'
+import { Player } from '@/app/types/player'
+import { PlayerDetails } from '@/app/types/player/PlayerDetails'
 
 interface Award {
   trophy: Trophy
@@ -69,24 +72,8 @@ interface SeasonTotal {
   shorthandedGoals: number
   shorthandedPoints: number
   shots: number
-  teamCommonName:{
-    default: string
-    cs: string
-    de: string
-    es: string
-    fi: string
-    sk: string
-    sv: string
-  }
-  teamName:{
-    default: string
-    cs: string
-    de: string
-    fi: string
-    fr: string
-    sk: string
-    sv: string
-  }
+  teamCommonName: Name
+  teamName: Name
   teamPlaceNameWithPreposition:{
     default: string
     fr: string
@@ -112,15 +99,8 @@ interface Stats {
 
 interface Teammate {
   playerId: number
-  lastName:{
-    default: string
-  }
-  firstName:{
-    default: string
-    cs: string
-    fi: string
-    sk: string
-  }
+  lastName:Name
+  firstName: Name
   playerSlug: string
 }
 
@@ -129,8 +109,7 @@ interface Trophy {
   fr: string
 }
 
-export interface Player {
-  playerId: number
+export interface PlayerInfo extends Player, PlayerDetails {
   isActive: boolean
   currentTeamId: number
   currentTeamAbbrev: string
@@ -145,31 +124,9 @@ export interface Player {
     default: string
     fr: string
   }
-  firstName:{
-    default: string
-  }
-  lastName:{
-    default: string
-  }
   badges: Badge[]
   teamLogo: string
-  sweaterNumber: number
-  position:'C' | 'L' | 'R' | 'D'
-  headshot: string
   heroImage: string
-  heightInInches: number
-  heightInCentimeters: number
-  weightInPounds: number
-  weightInKilograms: number
-  birthDate: string
-  birthCity: {
-    default: string
-  }
-  birthStateProvince: {
-    default: string
-  }
-  birthCountry: string
-  shootsCatches: 'L' | 'R'
   draftDetails: {
     year: number
     teamAbbrev: string

@@ -20,9 +20,9 @@ import {
 
 import getPosition from '@/app/utils/getPosition'
 
-import { type Player } from '@/app/types/Player'
+import { PlayerInfo } from '@/app/types/player/PlayerInfo'
 
-export default function DetailCard({player}: { player: Player }) {
+export default function DetailCard({player}: { player: PlayerInfo }) {
   return (
     <Card>
       <CardHeader>

@@ -1,30 +1,24 @@
+import { Player } from '@/app/types/player'
+import { Name } from '@/app/types/common/Name'
+
+export interface Leader extends Player {
+  teamAbbrev: string
+  teamName: Name
+  teamLogo: string
+  value: number
+}
+
 import { Position } from '@/app/types/Position'
 
-export interface Leader {
+export interface ApiLeader {
   id: number
-  firstName: {
-    default: string
-    cs: string
-    de: string
-    es: string
-    fi: string
-    sk: string
-    sv: string
-  }
-  lastName: {
-    default: string
-    cs: string,
-    fi: string,
-    sk: string
-  }
+  firstName: Name
+  lastName: Name
   sweaterNumber: number
   headshot: string
-  teamAbbrev: string
-  teamName: {
-    default: string
-    fr: string
-  }
-  teamLogo: string
   position: Position
+  teamAbbrev: string
+  teamName: Name
+  teamLogo: string
   value: number
 }

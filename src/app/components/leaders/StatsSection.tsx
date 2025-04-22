@@ -33,7 +33,7 @@ export default function StatsSection({
           <CarouselContent>
           {
             leaders.map((leader: Leader) => (
-              <CarouselItem className="basis-1/3" key={leader.id}>
+              <CarouselItem className="md:basis-1/3 basis-3/3" key={leader.playerId}>
                 <LeaderStatsCard
                   decimals={decimals}
                   isPercent={isPercent}

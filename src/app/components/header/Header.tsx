@@ -11,6 +11,7 @@ export default function Header({ children }: { children: ReactNode }) {
         <Link href="/">Player Spotlight</Link>
         <Link href="/skaters/stats-leaders">Skate Leaders</Link>
         <Link href="/goalies/stats-leaders">Goalie Leaders</Link>
+        <Link href="/team/list">Teams</Link>
       </nav>
       {children}
     </header>

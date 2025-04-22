@@ -21,9 +21,10 @@ export default function StatsLeaders() {
         statName='Wins'
       />
       <LeaderStatsSection
-        leaders={data?.shutouts}
-        sectionTitle="Shutouts"
-        statName='Shutouts'
+        decimals={2}
+        leaders={data?.goalsAgainstAverage}
+        sectionTitle="GAA"
+        statName='GAA'
       />
       <LeaderStatsSection
         isPercent
@@ -32,10 +33,9 @@ export default function StatsLeaders() {
         statName='Save %'
       />
       <LeaderStatsSection
-        decimals={2}
-        leaders={data?.goalsAgainstAverage}
-        sectionTitle="GAA"
-        statName='GAA'
+        leaders={data?.shutouts}
+        sectionTitle="Shutouts"
+        statName='Shutouts'
       />
     </div>
   )

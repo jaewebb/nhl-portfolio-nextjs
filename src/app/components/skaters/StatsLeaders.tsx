@@ -16,9 +16,14 @@ export default function StatsLeaders() {
     <div>
       <h1 className="px-8 h2">Skater Stats Leaders</h1>
       <LeaderStatsSection
-        leaders={data?.goalsSh}
-        sectionTitle="Shorthanded Goals"
-        statName='Shorthanded Goals'
+        leaders={data?.goals}
+        sectionTitle="Goals"
+        statName='Goals'
+      />
+      <LeaderStatsSection
+        leaders={data?.points}
+        sectionTitle="Points"
+        statName='Points'
       />
       <LeaderStatsSection
         leaders={data?.assists}
@@ -31,10 +36,9 @@ export default function StatsLeaders() {
         statName='Power Play Goals'
       />
       <LeaderStatsSection
-        isPercent
-        leaders={data?.faceoffLeaders}
-        sectionTitle="Faceoff Leaders"
-        statName='Faceoff %'
+        leaders={data?.goalsSh}
+        sectionTitle="Shorthanded Goals"
+        statName='Shorthanded Goals'
       />
       <LeaderStatsSection
         leaders={data?.penaltyMins}
@@ -42,14 +46,10 @@ export default function StatsLeaders() {
         statName='Penalty Mins'
       />
       <LeaderStatsSection
-        leaders={data?.goals}
-        sectionTitle="Goals"
-        statName='Goals'
-      />
-      <LeaderStatsSection
-        leaders={data?.points}
-        sectionTitle="Points"
-        statName='Points'
+        isPercent
+        leaders={data?.faceoffLeaders}
+        sectionTitle="Faceoff Leaders"
+        statName='Faceoff %'
       />
       <LeaderStatsSection
         decimals={2}
