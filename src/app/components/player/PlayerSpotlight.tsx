@@ -15,7 +15,7 @@ export default function PlayerSpotlight() {
   return (
     <div>
       <h1 className="px-8">Player Spotlight</h1>
-      <div className="grid grid-cols-4 items-center justify-items-center min-h-screen p-8 gap-16">
+      <div className="grid md:grid-cols-4 grid-cols-1 items-center justify-items-center min-h-screen p-8 gap-16">
         {
           data.map((player: PlayerSpotlight) => (
             <PlayerSpotlightCard key={player.playerId} player={player} />
