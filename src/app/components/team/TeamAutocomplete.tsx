@@ -10,7 +10,10 @@ import Loading from '@/app/components/Loading'
 
 import { type Team } from '@/app/types/team'
 
-export default function TeamAutocomplete({ handleSetValue }: { handleSetValue: Dispatch<SetStateAction<string>> }) {
+export default function TeamAutocomplete(
+  { className, handleSetValue }:
+  { className: string, handleSetValue: Dispatch<SetStateAction<string>> }
+) {
   const { data, error, isLoading } = useSWR('/api/team/list', fetcher)
   if (error) return <div>failed to load</div>
   if (isLoading) return <Loading />
@@ -18,7 +21,7 @@ export default function TeamAutocomplete({ handleSetValue }: { handleSetValue: D
   const teams = data.map((team: Team) => { return { label: team.fullName, value: team.triCode } })
 
   return (
-    <div>
+    <div className={className}>
       <Autocomplete options={teams} handleSetValue={handleSetValue} />
     </div>
   )

@@ -53,7 +53,7 @@ export default function Page() {
   return (
     <main>
       <TeamContext.Provider value={team}>
-        <TeamAutocomplete handleSetValue={setTeam} />
+        <TeamAutocomplete className="px-16" handleSetValue={setTeam} />
         { data &&
           <div className="pt-8">
             <PositionSection players={data.forwards} title="Forwards" />
